@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:unset;
+}
+
+#name{
+    margin-bottom: 8rem;
+    font-size: 3rem;
+    color: white;
+    background-color: rgb(21, 129, 230);
+    border-radius: 1rem;
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.msg-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 1rem;
+  height:25rem;
+  width: 25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+ 
+}
+
+.msg-container p {
+  font-size: 2.5rem;
+  font-weight:bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+
+body{
+     background: linear-gradient(rgb(46, 145, 238),white);
+}
+
+.container
+{
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+}
+
+.game .container .box{
+    border-radius: 1rem;
+    border: none;
+    font-size: 3rem;
+    width:10vh;
+    height: 10vh;
+    background-color:white;
+    color:red;
+}
+
+.game .container button{
+    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.game .Reset-btn {
+    margin-top: 8rem;
+    height: 4.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    background-color: rgb(46, 145, 238);
+}
